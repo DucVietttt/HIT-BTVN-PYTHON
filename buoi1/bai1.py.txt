@@ -1,0 +1,48 @@
+Bài 1.
+Python là một ngôn ngữ thông dịch.Bởi vì Python không biên dịch mã nguồn thành mã máy trước khi chạy. Thay vào đó, mã nguồn Python được thông dịch trực tiếp bởi trình thông dịch (interpreter) của Python.Python hỗ trợ môi trường tương tác (interactive mode) cho phép người dùng gõ và thực thi lệnh trực tiếp trong shell của Python. Điều này giúp kiểm tra và chạy mã nguồn dễ dàng mà không cần biên dịch.Trình thông dịch Python thực thi mã nguồn từng dòng một. Khi bạn chạy một chương trình Python, trình thông dịch đọc mã nguồn, phân tích và thực thi từng dòng lệnh ngay lập tức.
+Bài 2.
+-Các kiểu dữ lieu trong Python:
+Số nguyên (int): Đại diện cho các số nguyên. Ví dụ: 1, -5, 42
+Số thực (float): Đại diện cho các số thập phân. Ví dụ: 3.14, -2.0, 0.5
+Chuỗi (str): Đại diện cho các chuỗi ký tự. Ví dụ: "hello", 'world'
+Danh sách (list): Một danh sách có thể chứa nhiều giá trị. Ví dụ: [1, 2, 3, "a", "b"]
+Tuple (tuple): Giống như danh sách nhưng không thể thay đổi giá trị. Ví dụ: (1, 2, 3, "a", "b")
+Từ điển (dict): Cặp khóa-giá trị. Ví dụ: {"name": "John", "age": 30}
+Tập hợp (set): Một tập các giá trị không trùng lặp. Ví dụ: {1, 2, 3}
+Boolean (bool): Đại diện cho giá trị đúng hoặc sai. Giá trị có thể là True hoặc False
+NoneType: Đại diện cho giá trị không có gì. Giá trị là None
+-Các toán tử trong PYTHON:
++ (Cộng): 5 + 3 cho kết quả 8
+- (Trừ): 5 - 3 cho kết quả 2
+* (Nhân): 5 * 3 cho kết quả 15
+/ (Chia): 5 / 3 cho kết quả 1.6667
+// (Chia lấy nguyên): 5 // 3 cho kết quả 1
+% (Chia lấy dư): 5 % 3 cho kết quả 2
+** (Lũy thừa): 5 ** 3 cho kết quả 125
+== (Bằng): 5 == 3 cho kết quả False
+!= (Không bằng): 5 != 3 cho kết quả True
+> (Lớn hơn): 5 > 3 cho kết quả True
+< (Nhỏ hơn): 5 < 3 cho kết quả False
+>= (Lớn hơn hoặc bằng): 5 >= 3 cho kết quả True
+<= (Nhỏ hơn hoặc bằng): 5 <= 3 cho kết quả False
+and: True and False cho kết quả False
+or: True or False cho kết quả True
+not: not True cho kết quả False
+= (Gán): x = 5 gán giá trị 5 cho biến x
++= (Cộng rồi gán): x += 3 tương đương x = x + 3
+-= (Trừ rồi gán): x -= 3 tương đương x = x - 3
+*= (Nhân rồi gán): x *= 3 tương đương x = x * 3
+/= (Chia rồi gán): x /= 3 tương đương x = x / 3
+//= (Chia lấy nguyên rồi gán): x //= 3 tương đương x = x // 3
+%= (Chia lấy dư rồi gán): x %= 3 tương đương x = x % 3
+**= (Lũy thừa rồi gán): x **= 3 tương đương x = x ** 3
+-Mệnh đề vòng lặp:
+x = 10
+if x > 0:
+    print("x là số dương")
+elif x == 0:
+    print("x bằng 0")
+else:
+    print("x là số âm")
+-Kiểu dữ lieu True False
+Trong Python, kiểu dữ liệu boolean (bool) chỉ có hai giá trị: True và False. Chúng được sử dụng để biểu diễn các giá trị đúng và sai, thường xuất hiện trong các mệnh đề điều kiện và các phép toán logic.
