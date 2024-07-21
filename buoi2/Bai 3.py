@@ -1,9 +1,8 @@
 #Bai 3 
 n=int(input())
-Tong=0
+Tong=1
 for i in range(1,n+1,1):
-    if i%2!=0:
-        Tong+=i
+    Tong=Tong-2*i+(2*i+1)
 print("Tong 1-2+3-4+5+...+2*n+1 la",Tong)
 Sum=0
 for i in range(1,n+1,1):
